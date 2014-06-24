@@ -12,6 +12,5 @@ docker build -t sequenceiq/hadoop-nativelibs .
 docker run -it sequenceiq/hadoop-nativelibs /bin/bash
 
 ## Copy files from the container
-docker cp ID_OF_THE_CONTAINER:/tmp/hadoop-2.4.0-src/hadoop-dist/target/hadoop-2.4.0/lib/n│
-ative/ DESTINATION
+docker cp ID_OF_THE_CONTAINER:/tmp/hadoop-2.4.0-src/hadoop-dist/target/hadoop-2.4.0/lib/native/ DESTINATION
 
