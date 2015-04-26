@@ -36,7 +36,7 @@ ENV M2_HOME /usr/share/apache-maven-3.2.1
 ENV PATH $PATH:$M2_HOME/bin
 
 # hadoop
-RUN curl -s http://www.eu.apache.org/dist/hadoop/common/hadoop-2.6.0/hadoop-2.6.0-src.tar.gz | tar -xz -C /tmp/
+RUN curl -s http://www.eu.apache.org/dist/hadoop/common/hadoop-2.7.0/hadoop-2.7.0-src.tar.gz | tar -xz -C /tmp/
 
 # protoc -ohhh
 RUN curl https://protobuf.googlecode.com/files/protobuf-2.5.0.tar.bz2 | bunzip2|tar -x -C /tmp
